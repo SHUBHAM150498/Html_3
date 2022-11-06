@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- form -->
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="name" name="name" placeholder="enter your name"required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="age"  name="age" placeholder="enter your age" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email"  name="email" placeholder="enter your email" required>
+        <br>
+        <label for="contact">Contact:</label>
+        <input type="phonenumber" name="contact" placeholder="enter your number" required>
+        <br>
+        <button>Submit</button>
+    </form>
+
+
+<!-- code to insert an image  -->
+<center> <img src="./nature.jpg" height="200px" width="200px"></center>
+
+
+<!-- code to create a table  -->
+   <table border="1" cellspacing="0">
+    <tr>
+        <td rowspan="2">Days</td>
+        <td colspan="6" align="center">Time</td>
+    </tr>
+    <tr>
+        <td>8:00</td>
+        <td>9:00</td>
+        <td>10:00</td>
+        <td>11:00</td>
+        <td>11:30</td>
+        <td>12:30</td>
+    </tr>
+    <tr>
+        <td>Mon</td>
+        <td>COURSE 1</td>
+        <td>COURSE 2</td>
+        <td>COURSE 3</td>
+        <td rowspan="5">Break</td>
+        <td>COURSE 5</td>
+        <td></td>
+</tr>
+<tr>
+    <td>Tue</td>
+    <td colspan="2"></td>
+    <td>COURSE 2</td>
+    
+    <td>COURSE 4</td>
+    <td>COURSE 1</td>
+</tr>
+<tr>
+    <td>Wed</td>
+    <td>COURSE 3</td>
+    <td colspan="2"></td>
+    
+    <td>COURSE 2</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Thu</td>
+    <td rowspan="2">Course 4</td>
+    <td>Course 2</td>
+    <td>Course 3</td>
+    <td  colspan="2" rowspan="2" align="center">Thesis</td>
+</tr>
+<tr>
+    <td>Fri</td>
+    <td></td>
+    <td>Course 1</td>
+</tr>
+   </table>
+
+<!-- Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two  -->
+    <!-- radio -->
+<!-- Its is used when only one option to be selected out of several available options.
+Radio button is presented as small circle on the screen. -->
+    <!-- checkbox -->
+<!-- Checkbox allow one or many options to be selected.
+Checkbox is presented as small square box on the screen. -->
+<p>Course:</p>
+<input type="radio" name="course" vale="MERN">
+<label for="MERN"> MERN</label><br>
+<input type="radio" name="course" vale="MEAN">
+<label for="MEAN"> MEAN</label>
+<p>Technology:</p>
+<input type="checkbox" name="techno" value="HTML">
+<label for="techno"> HTML</label><br>
+<input type="checkbox" name="techno" value="CSS">
+<label for="techno"> CSS</label><br>
+<input type="checkbox" name="techno" value="REACT">
+<label for="techno"> REACT</label><br>
+<input type="checkbox" name="techno" value="NODE">
+<label for="techno">NODE</label><br>
+</body>
+</html>
